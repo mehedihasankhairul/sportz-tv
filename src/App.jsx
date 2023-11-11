@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <h1 className="text-xl font-bold">Live TV Application</h1>
+      <p>To avoid Ads Please use Brave Browser or Ads Blocker</p>
       <Channels />
     </div>
   )
