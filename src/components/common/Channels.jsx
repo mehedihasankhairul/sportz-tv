@@ -30,7 +30,7 @@ const Channels = () => {
     setSelectedChannel(channel);
   };
 
-  const commonURL = 'https://daddylivehd.one/live/stream-368.php';
+  const commonURL = 'https://daddylivehd.one/embed/stream-368.php';
 
   return (
     <div>
