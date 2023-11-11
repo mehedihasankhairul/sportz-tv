@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const TVScreen = ({ channelName, channelIcon, channelUrl }) => {
 
@@ -21,15 +21,6 @@ const TVScreen = ({ channelName, channelIcon, channelUrl }) => {
             title={channelName}
           ></iframe>
       </div>
-      <div className="text-dark text-center">
-            <p className="text-2xl font-bold mb-2">{channelName}</p>
-            <img
-              src={channelIcon}
-              alt={`${channelName} Icon`}
-              className="cursor-pointer"
-              onClick={handlePlayClick}
-            />
-       </div>
        </>
   );
 };

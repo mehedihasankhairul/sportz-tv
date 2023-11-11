@@ -30,18 +30,18 @@ const Channels = () => {
     setSelectedChannel(channel);
   };
 
-  const commonURL = 'https://daddylivehd.one/embed/stream-368.php';
+  const commonURL = 'https://daddylivehd.one/embed/stream-346.php';
 
   return (
     <div>
       <div className="mb-1">
-        <h2 className="text-2xl font-bold mb-4">Current Channel</h2>
+        <h2 className="text-2xl font-bold">Current Channel</h2>
         <TVScreen
           channelName={selectedChannel.name}
           channelIcon={selectedChannel.icon}
           channelUrl={commonURL}
         />
-        <div className="text-white text-center mt-4">
+        <div className="text-white text-center">
     
         </div>
       </div>
