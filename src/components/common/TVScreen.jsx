@@ -12,7 +12,7 @@ const TVScreen = ({ channelName, channelIcon, channelUrl }) => {
        <div className="flex flex-col items-center justify-center h-screen">
       {/* TV Screen */}
           <iframe
-            className="w-[600px] h-[400px] mx-auto"
+            className="w-[800px] h-[600px] mx-auto"
             src={channelUrl}
             name="iframe_a"
             scrolling="no"
